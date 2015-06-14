@@ -1,7 +1,7 @@
 %{"calliope": {:hex, :calliope, "0.3.0"},
   "cowboy": {:hex, :cowboy, "1.0.0"},
   "cowlib": {:hex, :cowlib, "1.0.1"},
-  "plug": {:hex, :plug, "0.13.0"},
+  "plug": {:hex, :plug, "0.12.2"},
   "plug_heartbeat": {:hex, :plug_heartbeat, "0.1.0"},
   "poison": {:hex, :poison, "1.4.0"},
   "ranch": {:hex, :ranch, "1.0.0"},
