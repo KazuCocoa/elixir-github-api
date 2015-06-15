@@ -15,6 +15,6 @@ defmodule Github.Mixfile do
   end
 
   defp deps do
-    [{:trot, "~> 0.5.0"}]
+    [{:trot, "~> 0.5.2"}]
   end
 end
