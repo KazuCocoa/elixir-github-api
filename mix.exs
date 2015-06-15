@@ -11,10 +11,15 @@ defmodule Github.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :trot]]
+    [
+      applications: [:logger, :trot, :httpoison]
+    ]
   end
 
   defp deps do
-    [{:trot, "~> 0.5.2"}]
+    [
+      {:trot, "~> 0.5.2"},
+      {:httpoison, "~> 0.7"}
+    ]
   end
 end
