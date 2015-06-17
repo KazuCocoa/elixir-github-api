@@ -11,9 +11,14 @@ defmodule GithubTest do
 
   test "get_milestones" do
     params = %{state: "closed"}
-    repo = "KazuCocoa/tagTestRepository"
-
+    repo = "KazuCocoa/elixir-github-api"
     assert Github.get_milestones(repo, params) != empty?
+  end
+
+  test "get_issues" do
+    params = %{state: "open"}
+    repo = "KazuCocoa/elixir-github-api"
+    assert Github.get_issues(repo, params) != empty?
   end
 
   defp empty? do
